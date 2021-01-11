@@ -1,0 +1,46 @@
+.techno {
+  border: 5px;
+  display: flex;
+  flex-direction: column;
+}
+.techno h6 {
+  margin-top: 0px;
+}
+.techno p {
+  margin-top: -25px;
+  font-size: small;
+  word-wrap: break-word;
+}
+.technohead {
+  width: 20%;
+  overflow: scroll;
+  height: 96vh;
+  padding: 0.6rem;
+  font-family: "Times New Roman";
+}
+.technohead::-webkit-scrollbar {
+  display: none;
+}
+.techLabel {
+  padding: 5px;
+  margin: 2px;
+  border: 3px;
+  box-shadow: -2px 5px 6px 2px rgba(90, 83, 83, 0.25);
+}
+.spanLabel {
+  margin: 2px;
+  border: 3px;
+  padding: 3px;
+  appearance: auto;
+  box-shadow: -2px 5px 6px 2px rgba(90, 83, 83, 0.25);
+}
+.MuiCardContent-root:last-child {
+  padding-bottom: 8px;
+}
+.technoroot {
+  padding: 10px;
+  overflow: hidden;
+  border-radius: 4px;
+  box-shadow: 0px 2px 1px -1px rgba(0, 0, 0, 0.2),
+    0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
+}

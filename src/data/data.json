@@ -1,0 +1,83 @@
+{
+    "summary":[
+        "3+ years of experience in Information Technology with emphasis on software development.",
+"Expertise in JavaScript, Unix, ReactsJs and Java.",
+"Solid understanding of Object Oriented programming, design and Technical Architecture.",
+"Involved in building applications using React JS by developing re-usable UI Components.",
+"Developed real time web applications using React JS and Redux Framework.",
+"Experience in writing and executing SQL queries to view transactions of data and validating data.",
+"Familiarity on working with Rest API and state managers such as Redux and GraphQL basics.",
+"Experience as a Front End (UI, UX) Developer in developing web applications using HTML, CSS, JavaScript and ReactJS technologies.",
+"Involved in developing and debugging Mobile Applications with Android in Java.",
+"Ability to manage tasks, feature enhancements and issues/bugs using JIRA.",
+"Hands on experience in using version control systems: GitHub and CVS.",
+"Able to adapt new technologies easily and ability to learn quickly.",
+"Agile (waterfall model) development life cycle is used in developing the application.",
+"Good Expertise in analysing the Document Object Model (DOM) Layout, DOM Functions, and Java Script functions, Cascading Styles across cross-browser using Fire Bug, Developer Tool Bar."
+    ],
+
+    "accenture":[
+        "Involved in developing enhancements of legacy application, migrating from JSP to Reactjs.",
+"Used React Lifecycle Hooks for application development.",
+"Responsible for API and front-end development using React JS and CSS.",
+"Worked on responsiveness and monitoring the performance using dev tools for the web application.",
+"Performing peer code reviews to keep an eye on code base and code quality.",
+"Created reusable components in the application wherever required for improved performance.",
+"Worked on React JS Virtual Dom and React views, rendered using components which contains additional components called custom HTML tags.",
+"Developed Class components in React to support enterprise level code.",
+"Used JIRA, GitHub as a part of daily development.",
+"Extensively used debugging tools such as Firebug and IE Dev tools to investigate the issues and fix the bugs.",
+"Performed the System Testing for Complete UI after fixing the Issues which are reported by Testing Team.",
+"Responsible for the Business requirement analysis and converting them to the functional requirements for the software development.",
+"Agile development life cycle is used in developing the user stories.",
+"Analyze production issues to determine root cause and provide fix to the existing code.",
+"Developed UNIX scrips for pattern matching to retrieve the exact files from a bulk data.",
+"Developed real time automated scripts in Splunk (log’s storage) to generate failure reports.",
+"Developed Automation scripts using python and Test NG framework for UI monitoring.",
+"Tracking the code logic between the technologies from front end (XML, XSLT, JavaScript, Reactjs, and JSP) and connecting them to the backend C++, Java, spring boot, Python.",
+"Assisted in the training of new team members.",
+"SOAP-UI is used to test the API service for validating the data.",
+"Project technology stack: Reactjs, JSP, JavaScript, Java, XML, XSLT, SOFEA, Splunk, C++, Python, CVS, UNIX, Putty."
+
+    ],
+    "freelance":[
+        "Participated in R&D, design, analysis and phases in software development lifecycle of the application.",
+"Developed e-commerce web application in fetching, viewing of the products and applying filters on that using Reactjs.",
+"Used React Hooks for application development.",
+"Developed front end pages with React JS and Material UI frameworks.",
+"Involved in write application level code to interact with APIs, Nodejs using JSON.",
+"Created and used Reducers that received said Actions to modify the Store State Tree.",
+"Implemented reducers and actions for API call’s to fetch the products.",
+"Used SQL queries in prefetching the data.",
+"Reusing the developed components at multiple sources of the application.",
+"Developed UI for the mobile application using different layouts (grid, linear etc) according to the requirements.",
+"Using the public jar files for automated generation of password retrieval email to the end users.",
+"Collection based data storage Firebase is used for the database.",
+"Implemented connection to public API’s of covid data and rendering the data into the mobile application.",
+"Developed graph based statistics of covid data into the mobile application."
+
+    ],
+    "technologies":{
+        "Backend Technologies":["Java","Nodejs","Python"],
+        "Front End Technologies":["React JS","JavaScript","HTML","CSS"],
+        "Mobile":["Android"],
+        "Versioning Tools":["GitHub","CVS"],
+        "Development tools":["Eclipse","IntelliJ","VS Code"],
+        "Database":["MySQL","Firebase"],
+        "Testing":["Selenium","Junit"],
+        "Other":["Redux","JSON","XML","XSLT","Splunk","Service-Now","JIRA","Confluence","Unix"]
+    },
+    "links":{
+        "github":"https://github.com/dilipmergu",
+        "linkedin":"https://www.linkedin.com/in/dilipreddy-mergu-131a48a5",
+        "facebook":"test@gmail.com",
+        "instagram":"test@gmail.com",
+        "twitter":"test@gmail.com"
+    },
+    "address":{
+        "street1":"4615 bourret ave",
+        "city":"Montreal",
+        "province":"Quebec",
+        "phonenumber":"4387286633"
+    }
+}

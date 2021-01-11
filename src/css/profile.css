@@ -1,0 +1,28 @@
+.profile {
+  width: 20%;
+  margin-left: 5px;
+  padding: 0.6rem;
+  font-family: "Times New Roman";
+}
+.profileimage {
+  max-width: 150px;
+  max-height: 150px;
+  margin-top: 50px;
+  border-radius: 40%;
+}
+.address {
+  font-size: small;
+}
+
+.linkedin {
+  border: 5px;
+  display: flex;
+  flex-direction: column;
+}
+.linkedin h6 {
+  margin-top: 0px;
+}
+.linkedin a {
+  font-size: small;
+  word-wrap: break-word;
+}

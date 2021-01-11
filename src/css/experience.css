@@ -1,0 +1,13 @@
+.exproles {
+  widows: 100%;
+  height: 180px;
+  overflow: scroll;
+  font-size: small;
+}
+/* .exproles::-webkit-scrollbar {
+  display: none;
+} */
+.experience {
+  width: 60%;
+  font-family: "Times New Roman";
+}
