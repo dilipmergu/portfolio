@@ -40,31 +40,30 @@
 "Project technology stack: Reactjs, JSP, JavaScript, Java, XML, XSLT, SOFEA, Splunk, C++, Python, CVS, UNIX, Putty."
 
     ],
-    "freelance":[
-        "Participated in R&D, design, analysis and phases in software development lifecycle of the application.",
-"Developed e-commerce web application in fetching, viewing of the products and applying filters on that using Reactjs.",
+    "freelance":{"Reactjs":[
+        "Developed e-commerce web application from scratch using Reactjs.",
 "Used React Hooks for application development.",
 "Developed front end pages with React JS and Material UI frameworks.",
 "Involved in write application level code to interact with APIs, Nodejs using JSON.",
 "Created and used Reducers that received said Actions to modify the Store State Tree.",
 "Implemented reducers and actions for API call’s to fetch the products.",
-"Used SQL queries in prefetching the data.",
-"Reusing the developed components at multiple sources of the application.",
-"Developed UI for the mobile application using different layouts (grid, linear etc) according to the requirements.",
-"Using the public jar files for automated generation of password retrieval email to the end users.",
-"Collection based data storage Firebase is used for the database.",
-"Implemented connection to public API’s of covid data and rendering the data into the mobile application.",
-"Developed graph based statistics of covid data into the mobile application."
+"Used Mongo DB queries in storing and prefetching the data",
+"Developed test cases with Jest framework."
 
     ],
+"mobile":["Developed UI for the mobile application using different layouts (grid, linear etc) according to the requirements.",
+    "Used the open source jar's for automated generation of password retrieval email's to the end users.",
+    "SQl queries and Firebase are used as a part of application development.",
+    "Implemented connection to public API’s of covid data and rendering it to the mobile application.",
+    "Developed interactive graph based on the statistics of covid data."]},
     "technologies":{
-        "Backend Technologies":["Java","Nodejs","Python"],
+        "Backend Technologies":["Java","Nodejs"],
         "Front End Technologies":["React JS","JavaScript","HTML","CSS"],
         "Mobile":["Android"],
         "Versioning Tools":["GitHub","CVS"],
         "Development tools":["Eclipse","IntelliJ","VS Code"],
-        "Database":["MySQL","Firebase"],
-        "Testing":["Selenium","Junit"],
+        "Database":["MySQL","Firebase","Mongo DB"],
+        "Testing":["Jest","Selenium","Junit"],
         "Other":["Redux","JSON","XML","XSLT","Splunk","Service-Now","JIRA","Confluence","Unix"]
     },
     "links":{

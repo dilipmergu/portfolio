@@ -2,7 +2,7 @@ import React from "react";
 import "../css/profile.css";
 
 function address(props) {
-  console.log(props);
+  // console.log(props);
   return (
     <div className="address">
       <p>

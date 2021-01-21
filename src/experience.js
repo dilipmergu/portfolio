@@ -19,6 +19,7 @@ const useStyles = makeStyles((theme) => ({
     overflow: "scroll",
     height: "325px",
     fontFamily: "Times New Roman",
+    width: "100%",
   },
   header: {
     fontWeight: "bold",
@@ -31,11 +32,13 @@ const useStyles = makeStyles((theme) => ({
 function Experience() {
   const [accenture, setAccenture] = useState([]);
   const [summary, setSummary] = useState([]);
-  const [freelance, setFreelance] = useState([]);
+  const [freelancereact, setFreelanceReact] = useState([]);
+  const [freelanceMobile, setFreelanceMobile] = useState([]);
   useEffect(() => {
     setAccenture(data.accenture);
     setSummary(data.summary);
-    setFreelance(data.freelance);
+    setFreelanceReact(data.freelance.Reactjs);
+    setFreelanceMobile(data.freelance.mobile);
   });
   const [expanded, setExpanded] = useState("panel1");
 
@@ -43,9 +46,10 @@ function Experience() {
     setExpanded(newExpanded ? panel : false);
   };
   const styles = useStyles();
-  const accroles = accenture.map((role) => <li>{role}</li>);
-  const freeroles = freelance.map((role) => <li>{role}</li>);
-  const sumroles = summary.map((role) => <li>{role}</li>);
+  const accroles = accenture.map((role, i) => <li key={i}>{role}</li>);
+  const freeroles = freelancereact.map((role, i) => <li key={i}>{role}</li>);
+  const sumroles = summary.map((role, i) => <li key={i}>{role}</li>);
+  // const freerolesMobile = freelanceMobile.map((role) => <li>{role}</li>);
   return (
     <div className="experience">
       <h3>Professional Experience</h3>
@@ -81,6 +85,29 @@ function Experience() {
         </AccordionDetails>
       </Accordion>
       <Accordion
+        expanded={expanded === "panel3"}
+        onChange={handleChange("panel3")}
+      >
+        <AccordionSummary
+          expandIcon={<ExpandMoreIcon />}
+          aria-controls="panel1a-content"
+          id="panel1a-header"
+        >
+          <Typography className={styles.header}>
+            Fiverr: Jun 2019 - Nov 2020
+          </Typography>
+        </AccordionSummary>
+        <AccordionDetails>
+          <Typography className={styles.heading}>
+            {freeroles}
+            {/* <h5>Mobile</h5>
+            {freerolesMobile} */}
+          </Typography>
+          {/* <h5>Mobile</h5>
+          <Typography className={styles.heading}>{freelanceMobile}</Typography> */}
+        </AccordionDetails>
+      </Accordion>
+      <Accordion
         expanded={expanded === "panel2"}
         onChange={handleChange("panel2")}
       >
@@ -95,23 +122,6 @@ function Experience() {
         </AccordionSummary>
         <AccordionDetails>
           <Typography className={styles.heading}>{accroles}</Typography>
-        </AccordionDetails>
-      </Accordion>
-      <Accordion
-        expanded={expanded === "panel3"}
-        onChange={handleChange("panel3")}
-      >
-        <AccordionSummary
-          expandIcon={<ExpandMoreIcon />}
-          aria-controls="panel1a-content"
-          id="panel1a-header"
-        >
-          <Typography className={styles.header}>
-            Fiverr: Jun 2019 - Nov 2020
-          </Typography>
-        </AccordionSummary>
-        <AccordionDetails>
-          <Typography className={styles.heading}>{freeroles}</Typography>
         </AccordionDetails>
       </Accordion>
     </div>

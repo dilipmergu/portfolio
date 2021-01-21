@@ -1,8 +1,5 @@
-import { Avatar, Card, CardContent } from "@material-ui/core";
-import { LinkedIn } from "@material-ui/icons";
 import React, { Component } from "react";
 import "./css/techno.css";
-import img from "./profile/image1.JPG";
 
 class Technologies extends Component {
   state = { technologies: {} };
@@ -12,45 +9,61 @@ class Technologies extends Component {
   render() {
     const backend =
       this.state.technologies["Backend Technologies"] &&
-      this.state.technologies["Backend Technologies"].map((tech) => (
-        <span className="spanLabel">{tech}</span>
+      this.state.technologies["Backend Technologies"].map((tech, k) => (
+        <span key={k} className="spanLabel">
+          {tech}
+        </span>
       ));
     const frontend =
       this.state.technologies["Front End Technologies"] &&
-      this.state.technologies["Front End Technologies"].map((tech) => (
-        <span className="spanLabel">{tech}</span>
+      this.state.technologies["Front End Technologies"].map((tech, k) => (
+        <span className="spanLabel" key={k}>
+          {tech}
+        </span>
       ));
     const mobile =
       this.state.technologies["Mobile"] &&
-      this.state.technologies["Mobile"].map((tech) => (
-        <span className="spanLabel">{tech}</span>
+      this.state.technologies["Mobile"].map((tech, k) => (
+        <span className="spanLabel" key={k}>
+          {tech}
+        </span>
       ));
     const versiontools =
       this.state.technologies["Versioning Tools"] &&
-      this.state.technologies["Versioning Tools"].map((tech) => (
-        <span className="spanLabel">{tech}</span>
+      this.state.technologies["Versioning Tools"].map((tech, k) => (
+        <span className="spanLabel" key={k}>
+          {tech}
+        </span>
       ));
     const devtools =
       this.state.technologies["Development tools"] &&
-      this.state.technologies["Development tools"].map((tech) => (
-        <span className="spanLabel">{tech}</span>
+      this.state.technologies["Development tools"].map((tech, k) => (
+        <span className="spanLabel" key={k}>
+          {tech}
+        </span>
       ));
     const otherroles =
       this.state.technologies["Other"] &&
-      this.state.technologies["Other"].map((tech) => (
-        <span className="spanLabel">{tech}</span>
+      this.state.technologies["Other"].map((tech, k) => (
+        <span className="spanLabel" key={k}>
+          {tech}
+        </span>
       ));
     const database =
       this.state.technologies["Database"] &&
-      this.state.technologies["Database"].map((tech) => (
-        <span className="spanLabel">{tech}</span>
+      this.state.technologies["Database"].map((tech, k) => (
+        <span className="spanLabel" key={k}>
+          {tech}
+        </span>
       ));
     const testing =
       this.state.technologies["Testing"] &&
-      this.state.technologies["Testing"].map((tech) => (
-        <span className="spanLabel">{tech}</span>
+      this.state.technologies["Testing"].map((tech, k) => (
+        <span className="spanLabel" key={k}>
+          {tech}
+        </span>
       ));
-    console.log(this.state.technologies);
+    // console.log(this.state.technologies);
     return (
       <div className="technohead">
         <h3>Technologies</h3>

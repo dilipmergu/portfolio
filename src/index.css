@@ -11,3 +11,11 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+@media only screen and (max-width: 540px) {
+  .epq-pull-quote {
+    width: 100%;
+  }
+}
+.accordin {
+  height: 70%;
+}
